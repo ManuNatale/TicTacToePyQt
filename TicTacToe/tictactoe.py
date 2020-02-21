@@ -1,13 +1,11 @@
 
 import sys
-from PyQt5.QtWidgets import *
-from PyQt5.QtGui import *
+import globalVars
 import buttons
 import symbols
+from PyQt5.QtWidgets import *
+from PyQt5.QtGui import *
 from tictactoeCore import *
-from globalVars import *
-import globalVars
-from PyQt5 import QtCore
 
 class mWindow(QMainWindow):
     
@@ -237,7 +235,7 @@ class mWindow(QMainWindow):
         
 
 # Global var Init
-globalVar()
+globalVars.globalVar()
 
 if __name__ == '__main__':
     
