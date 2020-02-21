@@ -9,7 +9,7 @@ from globalVars import *
 import globalVars
 from PyQt5 import QtCore
 
-class Example(QMainWindow):
+class mWindow(QMainWindow):
     
     def __init__(self):
         super().__init__()
@@ -242,5 +242,5 @@ globalVar()
 if __name__ == '__main__':
     
     app = QApplication(sys.argv)
-    ex = Example()
+    mW = mWindow()
     sys.exit(app.exec_())
